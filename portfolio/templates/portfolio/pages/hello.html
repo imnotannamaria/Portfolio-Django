@@ -2,10 +2,44 @@
 
 {% include 'portfolio/partials/head.html' %}
 <link rel="stylesheet" href="{% static 'portfolio/css/global.css' %}">
+<link rel="stylesheet" href="{% static 'portfolio/css/hello.css' %}">
 </head> 
 
 <body>
     {% include 'portfolio/partials/nav.html' %}
+
+    <div class="hello-page-container">
+        <div class="hello-page-container-one">
+            <div class="hello-wrapper-one">
+                <p>Hi all. I am</p>
+                <h1>Anna Maria</h1>
+                <h2>> Full-Satck Developer</h2>
+            </div>
+            <div class="hello-wrapper-two">
+                <div id="dev">
+                    <span style="font-size: 1.3rem;"># dev.py</span> 
+                </div>
+                <br>
+                <span style="font-size: 1.3rem;"><span style="color: #41CCA8; font-size: 1.3rem;">dev</span> = {</span>
+                <br>
+                <span style="font-size: 1.3rem;">&nbsp&nbsp&nbsp&nbsp"<span style="color: #FFDE59">name</span>": "<span style="color: #FFDE59">Anna Maria</span>",</span>
+                <br>
+                <span style="font-size: 1.3rem;">&nbsp&nbsp&nbsp&nbsp"<span style="color: #FFDE59">age</span>": <span style="color: #4D5BCE">20,</span></span>
+                <br>
+                <span style="font-size: 1.3rem;">&nbsp&nbsp&nbsp&nbsp"<span style="color: #FFDE59">formation</span>": "<span style="color: #FFDE59">Information system (2022-Present)</span>",</span>
+                <br>
+                <span style="font-size: 1.3rem;">}</span>
+                <br>
+                <br>
+                <span style="font-size: 1.3rem;"><span style="color: #4D5BCE">print</span>(<span style="color: #41CCA8;">dev</span>)</span>
+            </div>
+        </div>
+        <div class="hello-page-container-two">
+            
+        </div>
+    </div>
+
+    {% include 'portfolio/partials/footer.html' %}
 </body>
 
 </html> 
