@@ -1,9 +1,11 @@
+{% load static %}
+
 {% include 'portfolio/partials/head.html' %}
+<link rel="stylesheet" href="{% static 'portfolio/css/global.css' %}">
+</head> 
 
 <body>
-    <header>
-        <h1>HEADER</h1>
-    </header>
+    {% include 'portfolio/partials/nav.html' %}
 </body>
 
 </html> 
